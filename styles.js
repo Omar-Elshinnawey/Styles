@@ -4,7 +4,7 @@ $(document).ready(function() {
         var btn = $(this);
         btn.addClass('btn-active');
 
-        window.setTimeout(function() {
+        setTimeout(function() {
             btn.removeClass('btn-active');
         }, 200);
     });
